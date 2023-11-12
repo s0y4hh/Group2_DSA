@@ -1,0 +1,70 @@
+"THIS IS THE TEST CASES FOR THE POLICE AND THIEVES PROBLEM"
+
+Number of test cases: 6
+
+FIRST TEST CASE:
+grid size: 3 1
+
+inputs:
+p t p
+t p t 
+t t p 
+
+total caught should be: 3
+
+SECOND TEST CASE:
+grid size: 4 2
+
+inputs:
+p p p p
+t t p t
+t t p p
+t p t p
+
+total caught should be: 5
+
+THIRD TEST CASE:
+grid size: 6 2
+
+inputs:
+p p t t t p
+t t p p t p
+t p p t t p
+p t t t p p
+p p p t t t
+t t p t p t
+
+total caught should be: 16
+
+FOURT TEST CASE:
+grid size: 4 2
+
+inputs:
+p p p t
+t p t p
+p p t t
+p p t t 
+
+total caught should be: 7
+
+FIFT TEST CASE:
+grid size: 5 1
+
+inputs:
+p p p p p
+t t p p t
+t p p t t 
+t p t p t 
+p t p t p 
+
+total caught should be: 8
+
+SIXTH TEST CASE:
+grid size: 5 3
+p p t t t
+p t t p t
+t t p t p
+p p p t t
+t t t p p
+
+total caught should be: 9

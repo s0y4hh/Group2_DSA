@@ -1,0 +1,49 @@
+import unittest
+from binarysearch import Road_to_Playoffs
+
+class TestRoadToPlayoffs(unittest.TestCase):
+    
+    def test_1(self):
+        N = 4
+        M = 1
+        K = 1
+        B = 1
+        currrentPoints = [4, 4, 4, 4]
+        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 4)
+
+    
+        
+    def test_2(self):
+        N = 6
+        M = 2
+        K = 3
+        B = 3
+        currrentPoints = [1, 2, 3, 4, 5, 6]
+        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 6)
+        
+    def test_3(self):
+        N = 4
+        M = 1
+        K = 1
+        B = 2
+        currrentPoints = [3, 2, 1, 4]
+        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 4)
+        
+    def test_4(self):
+        N = 8
+        M = 5
+        K = 4
+        B = 5
+        currrentPoints = [10, 9, 8, 7, 6, 5, 4, 3]
+        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 8)
+        
+    def test_5(self):
+        N = 3
+        M = 2
+        K = 1
+        B = 1
+        currrentPoints = [1, 2, 3]
+        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 3)
+        
+if __name__ == '__main__':
+    unittest.main()
