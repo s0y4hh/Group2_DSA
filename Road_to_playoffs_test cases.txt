@@ -1,49 +1,42 @@
-import unittest
-from binarysearch import Road_to_Playoffs
-
-class TestRoadToPlayoffs(unittest.TestCase):
-    
-    def test_1(self):
+"THIS IS THE TEST FOR ROAD TO PLAYOFFS PROBLEM"
+"FIRST INPUT SHOULD BE 5 TO TRY ALL THE TEST CASES AVAILABLE"
+    TEST 1:
         N = 4
         M = 1
         K = 1
         B = 1
-        currrentPoints = [4, 4, 4, 4]
-        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 4)
+        currrentPoints = 4 4 4 4   
+        THE RESULT SHOULD BE: 4
 
-    
-        
-    def test_2(self):
+    TEST 2:
         N = 6
         M = 2
         K = 3
-        B = 3
-        currrentPoints = [1, 2, 3, 4, 5, 6]
-        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 6)
+        B = 1
+
+        currrentPoints = 1 2 3 4 5 6
+        THE RESULT SHOULD BE: 3
         
-    def test_3(self):
+    TEST 3:
         N = 4
         M = 1
         K = 1
         B = 2
-        currrentPoints = [3, 2, 1, 4]
-        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 4)
+        currrentPoints = 3 2 1 4  
+        THE RESULT SHOULD BE: 3
         
-    def test_4(self):
+    TEST 4:
         N = 8
         M = 5
         K = 4
         B = 5
-        currrentPoints = [10, 9, 8, 7, 6, 5, 4, 3]
-        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 8)
+        currrentPoints = 10 9 8 7 6 5 4 3
+        THE RESULT SHOULD BE: 8
         
-    def test_5(self):
+    TEST 5:
         N = 3
         M = 2
         K = 1
         B = 1
-        currrentPoints = [1, 2, 3]
-        self.assertEqual(Road_to_Playoffs(N, M, K, B, currrentPoints), 3)
-        
-if __name__ == '__main__':
-    unittest.main()
+        currrentPoints = 1 2 3
+        THE RESULT SHOULD BE: 3
