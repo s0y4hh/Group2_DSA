@@ -23,7 +23,7 @@ def bubble_sort_books(books):
                     print(f"{book['author']}: {book['title']}")
 
     # print the time taken to sort the books
-    print(f"{Fore.GREEN}\nTime taken to sort the books: {time.time() - start_time} seconds{Style.RESET_ALL}")
+    print(f"\nTime taken to sort the books: {time.time() - start_time} seconds")
     return time.time() - start_time
 
     # Sample list of books with 'author' and 'title' keys
@@ -80,7 +80,7 @@ def insertion_sort_books(books):
         print(f"\nStep {i}:")
         for book in books:
             print(f"{book['author']}: {book['title']}")
-    print(f"{Fore.GREEN}\nTime taken to sort the books using Insertion sort: {time.time() - start_time} seconds{Style.RESET_ALL}")
+    print(f"\nTime taken to sort the books using Insertion sort: {time.time() - start_time} seconds")
     return time.time() - start_time
 print("Before sorting:\n")
 for book in library_books:
@@ -91,7 +91,7 @@ insertion_sort_books(library_books)
 print("\nAfter sorting:\n")
 for book in library_books:
     print(f"{book['author']}: {book['title']}")
-print("\nTHE SIRTING TIME OF BOTH ALGORITHMS")
+print("\nTHE STRING TIME OF BOTH ALGORITHMS")
 
 
 # Compare the time taken to sort the books using both algorithms
