@@ -1,5 +1,4 @@
 import time
-from colorama import Fore, Style
 
 
 """BUBBLE SORT ALGORITHM IN SORTING BOOKS BY AUTHOR'S LAST NAME"""
@@ -97,6 +96,6 @@ print("\nTHE SIRTING TIME OF BOTH ALGORITHMS")
 
 # Compare the time taken to sort the books using both algorithms
 if bubble_sort_books(library_books) > insertion_sort_books(library_books):
-    print(f"{Fore.GREEN}\nInsertion sort is faster than Bubble sort{Style.RESET_ALL}")
+    print(f"\nInsertion sort is faster than Bubble sort")
 else:
-    print(f"{Fore.GREEN}\nBubble sort is faster than Insertion sort{Style.RESET_ALL}")
+    print(f"\nBubble sort is faster than Insertion sort")
